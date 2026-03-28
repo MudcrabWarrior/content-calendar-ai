@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ['/api/', '/success'],
       allow: '/',
     },
-    sitemap: 'https://content-calendar-ai.vercel.app/sitemap.xml',
+    sitemap: 'https://content-calendar-ai-delta.vercel.app/sitemap.xml',
   };
 }

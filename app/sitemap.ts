@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://content-calendar-ai.vercel.app';
+  const baseUrl = 'https://content-calendar-ai-delta.vercel.app';
 
   return [
     {
