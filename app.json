@@ -1,0 +1,43 @@
+{
+  "name": "Content Calendar AI",
+  "description": "AI-Powered Social Media Content Calendar Generator",
+  "repository": "https://github.com/velocityforgeai/content-calendar-ai",
+  "keywords": [
+    "content-calendar",
+    "ai",
+    "social-media",
+    "marketing",
+    "next.js",
+    "stripe",
+    "anthropic"
+  ],
+  "env": {
+    "ANTHROPIC_API_KEY": {
+      "description": "API key for Anthropic Claude API",
+      "required": true
+    },
+    "STRIPE_SECRET_KEY": {
+      "description": "Stripe secret API key for payments",
+      "required": true
+    },
+    "STRIPE_PUBLISHABLE_KEY": {
+      "description": "Stripe publishable API key",
+      "required": true
+    },
+    "STRIPE_WEBHOOK_SECRET": {
+      "description": "Stripe webhook signing secret",
+      "required": true
+    },
+    "NEXT_PUBLIC_BASE_URL": {
+      "description": "Base URL of your deployed app",
+      "required": true,
+      "value": "https://content-calendar-ai.vercel.app"
+    }
+  },
+  "buildCommand": "next build",
+  "startCommand": "next start",
+  "framework": "nextjs",
+  "regions": [
+    "iad1"
+  ]
+}
